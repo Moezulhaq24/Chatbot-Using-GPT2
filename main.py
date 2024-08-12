@@ -3,7 +3,7 @@ from langchain_huggingface import HuggingFaceEndpoint  # Updated import
 import os
 
 # Get the Hugging Face API token
-HF_TOKEN = os.getenv('HF_TOKEN') or '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'
+HF_TOKEN = os.getenv('HF_TOKEN')
 
 # Define the repository ID for the model
 repo_id = "openai-community/gpt2"
